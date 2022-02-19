@@ -62,12 +62,12 @@ For Variables:
 - Built-in variables x, y, z have initial values.Initially stored in memory [0], [4], [8] respectively.
 - When a NEW variable appears, there are two cases:  
   A variable first appears in the left-hand side of an assignment operator (=):   
-  Valid, and it can be used in the future  
-  E.g. c = x + 5, aa = bb = 3 * x are both valid.  
+    Valid, and it can be used in the future  
+      E.g. c = x + 5, aa = bb = 3 * x are both valid.  
 
 - A variable first appears in the right-hand side of an assignment operator (=):  
-  Invalid, and you should print EXIT 1  
-  E.g. x = cc * 5, if cc is a new variable, it is invalid.  
+    Invalid, and you should print EXIT 1  
+      E.g. x = cc * 5, if cc is a new variable, it is invalid.  
 
 - A new variable should NOT first appear in: 
   Both side of an assignment operator (=).    
