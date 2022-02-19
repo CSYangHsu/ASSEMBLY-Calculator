@@ -9,7 +9,7 @@ In this project, I implemented a calculator (Inorder --> Assembly codes).
 * [Complete Grammar Rules](#Complete-Grammar-Rules)
 * [Operators and Variables](#Operators-and-Variables)
 * [Example](#Example)
-* [File introduction](#Fileintroduction)
+* [File introduction](#File-introduction)
 
 ## Instruction Set Architecture
 ![image](https://user-images.githubusercontent.com/86723888/154809236-c54a9738-5103-45c8-9b00-96467b925b50.png)  
