@@ -6,13 +6,32 @@ In this project, I implemented a calculator.
 
 ## Table of Contents
 * [Instruction Set Architecture](#Instruction-Set-Architecture)
-* [Grammar](#Grammar)
+* [Complete Grammar Rules](#Complete-Grammar-Rules)
 
 ## Instruction Set Architecture
 ![image](https://user-images.githubusercontent.com/86723888/154809236-c54a9738-5103-45c8-9b00-96467b925b50.png)  
 ![image](https://user-images.githubusercontent.com/86723888/154809243-94a3145b-6379-4ac2-b0e1-4f10993b33d6.png)  
 ![image](https://user-images.githubusercontent.com/86723888/154809225-9dd4f54c-1456-4c4b-bf42-d887927f9eaf.png)  
 
+  
+
+## Complete Grammar Rules
+Tokens used in the grammar:  
+- INT: integer number
+- ID: variable
+- ASSIGN: =
+- LPAREN: (
+- RPAREN: )
+- END: '\n'
+- ADDSUB: + or -
+- MULDIV: * or /
+- INCDEC: ++ or --
+- AND: &
+- OR: |
+- XOR: ^  
+  
+    
+![image](https://user-images.githubusercontent.com/86723888/154809349-ab823610-0e89-4b33-ab91-3ab8c3b4246b.png)  
 
 
 
