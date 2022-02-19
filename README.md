@@ -71,7 +71,7 @@ For Variables:
     Invalid, and you should print EXIT 1  
       E.g. x = cc * 5, if cc is a new variable, it is invalid.  
 
-- A new variable should NOT first appear in: 
+- A new variable should NOT first appear in:   
   ＋ Both side of an assignment operator (=).    
     E.g. aa = aa + 1  
   ＋ Prefix increment/decrement expression (++ or --)  
