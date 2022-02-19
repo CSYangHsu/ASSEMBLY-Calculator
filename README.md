@@ -16,6 +16,9 @@ In this project, I implemented a calculator.
   
 
 ## Complete Grammar Rules
+
+    
+![image](https://user-images.githubusercontent.com/86723888/154809349-ab823610-0e89-4b33-ab91-3ab8c3b4246b.png)   
 Tokens used in the grammar:  
 - INT: integer number
 - ID: variable
@@ -29,9 +32,6 @@ Tokens used in the grammar:
 - AND: &
 - OR: |
 - XOR: ^  
-  
-    
-![image](https://user-images.githubusercontent.com/86723888/154809349-ab823610-0e89-4b33-ab91-3ab8c3b4246b.png)  
 
 
 
