@@ -66,7 +66,7 @@ For Variables:
   + A variable first appears in the left-hand side of an assignment operator (=):   
     Valid, and it can be used in the future  
       E.g. c = x + 5, aa = bb = 3 * x are both valid.  
-　+ A variable first appears in the right-hand side of an assignment operator (=):  
+  + A variable first appears in the right-hand side of an assignment operator (=):  
     Invalid, and you should print EXIT 1  
       E.g. x = cc * 5, if cc is a new variable, it is invalid.  
 
