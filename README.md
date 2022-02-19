@@ -86,14 +86,10 @@ For Variables:
 
   
 # Example
-![image](https://user-images.githubusercontent.com/86723888/154810672-3a76b574-bccd-4044-bda1-52bbfcfdcfb5.png)  
+![image](https://user-images.githubusercontent.com/86723888/154810791-e4f650e5-aa22-48fa-b564-a5582cad85ff.png)
 
 For ERROR:  
-  If the expression is invalid, such as  
-         x = +3 % 5  
-         y = (x+)  
-  the final output will be  
-         EXIT 1  
+![image](https://user-images.githubusercontent.com/86723888/154810802-7043e385-25dc-4069-af27-5259bcaae001.png)
          
 
 
