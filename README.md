@@ -99,10 +99,10 @@ For ERROR:
 - lex.h/lex.c:  
   + recognizing which string of symbols from the source program represents a single entity called token
   + identifying whether they are numeric values, words, arithmetic operators, and so on.  
-  + Tokenizer “getToken()”: 
-    a function that extracts the next token from the input string;  
-    stores the token in “char lexeme[MAXLEN]”;  
-    identifies the token’s type.  
+  + Tokenizer “getToken()”:   
+      a function that extracts the next token from the input string;  
+      stores the token in “char lexeme[MAXLEN]”;  
+      identifies the token’s type.  
 
 
   
