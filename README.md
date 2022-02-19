@@ -9,10 +9,9 @@ In this project, I implemented a calculator.
 * [Grammar](#Grammar)
 
 ## Instruction Set Architecture
-![image](https://user-images.githubusercontent.com/86723888/154809139-48a52539-e771-4ecc-9a9f-5ba80e55909b.png)  
-![image](https://user-images.githubusercontent.com/86723888/154809160-ebb51694-9faf-473b-a813-d801d95ede93.png)  
-![image](https://user-images.githubusercontent.com/86723888/154809171-abef077c-50f7-42d0-a7d7-29aa405fdb6f.png)  
-![image](https://user-images.githubusercontent.com/86723888/154809225-9dd4f54c-1456-4c4b-bf42-d887927f9eaf.png)
+![image](https://user-images.githubusercontent.com/86723888/154809236-c54a9738-5103-45c8-9b00-96467b925b50.png)  
+![image](https://user-images.githubusercontent.com/86723888/154809243-94a3145b-6379-4ac2-b0e1-4f10993b33d6.png)  
+![image](https://user-images.githubusercontent.com/86723888/154809225-9dd4f54c-1456-4c4b-bf42-d887927f9eaf.png)  
 
 
 
