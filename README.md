@@ -93,7 +93,12 @@ For ERROR:
 ![image](https://user-images.githubusercontent.com/86723888/154810802-7043e385-25dc-4069-af27-5259bcaae001.png)
          
 
-## File introduction  
+## File introduction 
+![image](https://user-images.githubusercontent.com/86723888/154811082-08d75fb5-929b-41fd-a83f-642dc17b118f.png)  
+
+- lex.h/lex.c
+- codeGen.h/codeGen.c
+- parser.h/parser.c
 
 
 
