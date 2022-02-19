@@ -124,7 +124,9 @@ For ERROR:
     that calculates the answer by pre-order traversal of the syntax tree.  
     
 - Symbol table:  
-![image](https://user-images.githubusercontent.com/86723888/154812076-5fd64f60-31ff-42f5-acaf-3e77c0ac04cc.png)  
+  
+  
+![image](https://user-images.githubusercontent.com/86723888/154812124-9d37db72-ee56-4de5-9f48-591befdc214c.png) 
 ![image](https://user-images.githubusercontent.com/86723888/154812084-1627278c-5ccd-4a6a-8c31-7e6b773b2c2a.png)
 
 
