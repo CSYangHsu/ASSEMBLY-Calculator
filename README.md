@@ -5,18 +5,60 @@ In this project, I implemented a calculator (Output Assembly Codes) with syntax 
 ![image](https://user-images.githubusercontent.com/86723888/154808696-8d832452-c058-478b-b5cc-455271b7301c.png)
 
 ## Table of Contents
-* [Instruction Set Architecture](#Instruction-Set-Architecture)
+* [File introduction](#File-introduction)
+* [Example](#Example) 
 * [Complete Grammar Rules](#Complete-Grammar-Rules)
 * [Operators and Variables](#Operators-and-Variables)
-* [Example](#Example)
-* [File introduction](#File-introduction)
+* [Instruction Set Architecture](#Instruction-Set-Architecture)
 
-## Instruction Set Architecture
-![image](https://user-images.githubusercontent.com/86723888/154809236-c54a9738-5103-45c8-9b00-96467b925b50.png)  
-![image](https://user-images.githubusercontent.com/86723888/154809243-94a3145b-6379-4ac2-b0e1-4f10993b33d6.png)  
-![image](https://user-images.githubusercontent.com/86723888/154809225-9dd4f54c-1456-4c4b-bf42-d887927f9eaf.png)  
+
+
+
+
+## File introduction 
+![image](https://user-images.githubusercontent.com/86723888/154811082-08d75fb5-929b-41fd-a83f-642dc17b118f.png)  
+
+- lex.h/lex.c: 　lexical analysis  
+  
+  + recognizing which string of symbols from the source program represents a single entity called token
+  + identifying whether they are numeric values, words, arithmetic operators, and so on.  
+  + Tokenizer “getToken()”:   
+      　　(1) a function that extracts the next token from the input string;  
+      　　(2) stores the token in “char lexeme[MAXLEN]”;  
+      　　(3) identifies the token’s type.  
+
 
   
+- parser.h/parser.c: 　grammar parsing process  
+  
+  + group tokens into statements based on a set of rules, collectively called a grammar. (mentioned before)
+  + construct the syntax binary tree.  
+![image](https://user-images.githubusercontent.com/86723888/154811672-61402ff2-8ee0-4b18-ae2e-2bf8bd2941dd.png) 　![image](https://user-images.githubusercontent.com/86723888/154811686-be2fddd6-083b-40e8-be3a-4c04c286bbbf.png) 　![image](https://user-images.githubusercontent.com/86723888/154811693-bdd1f9e8-37a8-493f-b61d-5d7c3072e9fe.png)
+
+
+
+
+
+- codeGen.h/codeGen.c: 　code generation process  
+  
+  + constructing the machine-language instructions to implement the statements recognized by the parser and represented as syntax trees
+  + provide a function: evaluateTree(BTNode *root)  
+    that calculates the answer by pre-order traversal of the syntax tree.  
+    
+- Symbol table:  
+  
+  
+![image](https://user-images.githubusercontent.com/86723888/154812124-9d37db72-ee56-4de5-9f48-591befdc214c.png)   
+![image](https://user-images.githubusercontent.com/86723888/154812084-1627278c-5ccd-4a6a-8c31-7e6b773b2c2a.png)  
+
+
+
+  
+## Example
+![image](https://user-images.githubusercontent.com/86723888/154810791-e4f650e5-aa22-48fa-b564-a5582cad85ff.png)
+
+For ERROR:  
+![image](https://user-images.githubusercontent.com/86723888/154810802-7043e385-25dc-4069-af27-5259bcaae001.png)  
 
 ## Complete Grammar Rules
 
@@ -85,52 +127,15 @@ For Variables:
 - Valid variable names may contain a-z, A-Z, numbers, and underscores(_) and may have arbitrary length, but name of a variable should NOT START WITH A NUMBER.  
 
 
-  
-## Example
-![image](https://user-images.githubusercontent.com/86723888/154810791-e4f650e5-aa22-48fa-b564-a5582cad85ff.png)
 
-For ERROR:  
-![image](https://user-images.githubusercontent.com/86723888/154810802-7043e385-25dc-4069-af27-5259bcaae001.png)
          
 
-## File introduction 
-![image](https://user-images.githubusercontent.com/86723888/154811082-08d75fb5-929b-41fd-a83f-642dc17b118f.png)  
-
-- lex.h/lex.c: 　lexical analysis  
-  
-  + recognizing which string of symbols from the source program represents a single entity called token
-  + identifying whether they are numeric values, words, arithmetic operators, and so on.  
-  + Tokenizer “getToken()”:   
-      　　(1) a function that extracts the next token from the input string;  
-      　　(2) stores the token in “char lexeme[MAXLEN]”;  
-      　　(3) identifies the token’s type.  
 
 
-  
-- parser.h/parser.c: 　grammar parsing process  
-  
-  + group tokens into statements based on a set of rules, collectively called a grammar. (mentioned before)
-  + construct the syntax binary tree.  
-![image](https://user-images.githubusercontent.com/86723888/154811672-61402ff2-8ee0-4b18-ae2e-2bf8bd2941dd.png) 　![image](https://user-images.githubusercontent.com/86723888/154811686-be2fddd6-083b-40e8-be3a-4c04c286bbbf.png) 　![image](https://user-images.githubusercontent.com/86723888/154811693-bdd1f9e8-37a8-493f-b61d-5d7c3072e9fe.png)
-
-
-
-
-
-- codeGen.h/codeGen.c: 　code generation process  
-  
-  + constructing the machine-language instructions to implement the statements recognized by the parser and represented as syntax trees
-  + provide a function: evaluateTree(BTNode *root)  
-    that calculates the answer by pre-order traversal of the syntax tree.  
-    
-- Symbol table:  
-  
-  
-![image](https://user-images.githubusercontent.com/86723888/154812124-9d37db72-ee56-4de5-9f48-591befdc214c.png) 
-![image](https://user-images.githubusercontent.com/86723888/154812084-1627278c-5ccd-4a6a-8c31-7e6b773b2c2a.png)
-
-
-
+## Instruction Set Architecture
+![image](https://user-images.githubusercontent.com/86723888/154809236-c54a9738-5103-45c8-9b00-96467b925b50.png)  
+![image](https://user-images.githubusercontent.com/86723888/154809243-94a3145b-6379-4ac2-b0e1-4f10993b33d6.png)  
+![image](https://user-images.githubusercontent.com/86723888/154809225-9dd4f54c-1456-4c4b-bf42-d887927f9eaf.png)  
     
 
 
