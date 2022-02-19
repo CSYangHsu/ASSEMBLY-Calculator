@@ -39,15 +39,15 @@ For operators:
 - Operator priority: 　[*, /] > [+, -] > & > ^ > |  
 - &, |, ^ are the same as bitwise operators in C.
 - The left-hand side of an assignment (=) operator should be a variable.
-- Valid examples:
-  x = 5
-  x = y = 3
-  x = (y = 1)  
+- Valid examples:  
+  x = 5  
+  x = y = 3  
+  x = (y = 1)    
     
-- Invalid examples:
-  5 = x
-  x + y = 1
-  (x + y) = 1
+- Invalid examples:  
+  5 = x  
+  x + y = 1  
+  (x + y) = 1  
 
 
 
