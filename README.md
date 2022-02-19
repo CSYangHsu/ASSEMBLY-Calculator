@@ -21,7 +21,8 @@ In this project, I implemented a calculator (Inorder --> Assembly codes).
     
 ![image](https://user-images.githubusercontent.com/86723888/154809349-ab823610-0e89-4b33-ab91-3ab8c3b4246b.png)   
 Tokens used in the grammar:  
-- INT: integer number - ID: variable
+- INT: integer number 
+- ID: variable
 - ASSIGN: =
 - LPAREN: (
 - RPAREN: )
