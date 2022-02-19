@@ -96,7 +96,7 @@ For ERROR:
 ## File introduction 
 ![image](https://user-images.githubusercontent.com/86723888/154811082-08d75fb5-929b-41fd-a83f-642dc17b118f.png)  
 
-- lex.h/lex.c: lexical analysis  
+- lex.h/lex.c: 　lexical analysis  
   
   + recognizing which string of symbols from the source program represents a single entity called token
   + identifying whether they are numeric values, words, arithmetic operators, and so on.  
@@ -107,7 +107,7 @@ For ERROR:
 
 
   
-- parser.h/parser.c: grammar parsing process  
+- parser.h/parser.c: 　grammar parsing process  
   
   + group tokens into statements based on a set of rules, collectively called a grammar. (mentioned before)
   + construct the syntax binary tree.  
@@ -117,11 +117,19 @@ For ERROR:
 
 
 
-- codeGen.h/codeGen.c: code generation process  
+- codeGen.h/codeGen.c: 　code generation process  
   
   + constructing the machine-language instructions to implement the statements recognized by the parser and represented as syntax trees
   + provide a function: evaluateTree(BTNode *root)  
-    that calculates the answer by pre-order traversal of the syntax tree.
+    that calculates the answer by pre-order traversal of the syntax tree.  
+    
+- Symbol table:  
+![image](https://user-images.githubusercontent.com/86723888/154812076-5fd64f60-31ff-42f5-acaf-3e77c0ac04cc.png)  
+![image](https://user-images.githubusercontent.com/86723888/154812084-1627278c-5ccd-4a6a-8c31-7e6b773b2c2a.png)
+
+
+
+    
 
 
 
