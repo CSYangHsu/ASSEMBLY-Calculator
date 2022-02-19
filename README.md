@@ -1,5 +1,5 @@
 # Simple-Calculator
-In this project, I implemented a calculator (Inorder --> Assembly codes).   
+In this project, I implemented a calculator (Inorder --> Assembly codes)fds.   
   
   
 ![image](https://user-images.githubusercontent.com/86723888/154808696-8d832452-c058-478b-b5cc-455271b7301c.png)
