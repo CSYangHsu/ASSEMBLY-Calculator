@@ -12,6 +12,8 @@ In this project, I implemented a calculator.
 ![image](https://user-images.githubusercontent.com/86723888/154809139-48a52539-e771-4ecc-9a9f-5ba80e55909b.png)  
 ![image](https://user-images.githubusercontent.com/86723888/154809160-ebb51694-9faf-473b-a813-d801d95ede93.png)  
 ![image](https://user-images.githubusercontent.com/86723888/154809171-abef077c-50f7-42d0-a7d7-29aa405fdb6f.png)  
+![image](https://user-images.githubusercontent.com/86723888/154809225-9dd4f54c-1456-4c4b-bf42-d887927f9eaf.png)
+
 
 
 
