@@ -6,7 +6,8 @@ In this project, I implemented a calculator (Inorder --> Assembly codes).
 
 ## Table of Contents
 * [Instruction Set Architecture](#Instruction-Set-Architecture)
-* [Complete Grammar Rules](#Complete-Grammar-Rules)
+* [Complete Grammar Rules](#Complete-Grammar-Rules)v
+* [Operatoes and Variables](#Operatoes-and-Variables)
 
 ## Instruction Set Architecture
 ![image](https://user-images.githubusercontent.com/86723888/154809236-c54a9738-5103-45c8-9b00-96467b925b50.png)  
@@ -20,8 +21,7 @@ In this project, I implemented a calculator (Inorder --> Assembly codes).
     
 ![image](https://user-images.githubusercontent.com/86723888/154809349-ab823610-0e89-4b33-ab91-3ab8c3b4246b.png)   
 Tokens used in the grammar:  
-- INT: integer number
-- ID: variable
+- INT: integer number - ID: variable
 - ASSIGN: =
 - LPAREN: (
 - RPAREN: )
@@ -32,6 +32,9 @@ Tokens used in the grammar:
 - AND: &
 - OR: |
 - XOR: ^  
+
+## Operatoes and Variables
+
 
 
 
