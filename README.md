@@ -71,9 +71,9 @@ For Variables:
       E.g. x = cc * 5, if cc is a new variable, it is invalid.  
 
 - A new variable should NOT first appear in:     
- ＋ Both side of an assignment operator (=).    
+  ＋ Both side of an assignment operator (=).    
     E.g. aa = aa + 1  
- ＋ Prefix increment/decrement expression (++ or --)  
+  ＋ Prefix increment/decrement expression (++ or --)  
     E.g. x = ++bb  
 - Valid variable names may contain a-z, A-Z, numbers, and underscores(_) and may have arbitrary length, but name of a variable should NOT START WITH A NUMBER.
 
