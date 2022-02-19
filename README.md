@@ -53,7 +53,7 @@ For Unary Operators:
 - Two consecutive positive (+) or negative (-) signs should be regarded as a prefix increment/decrement operator. (e.g. ++x)  
 - Only two consecutive (no spaces between) signs form an increment/decrement operator, e.g.  
   ++x should be regarded as INC(++) x.  
-  + +x should be regarded as POSITIVE(+) POSITIVE(+) x.  
+  +　+x should be regarded as POSITIVE(+) POSITIVE(+) x.  
 
 - The operand of an inc/dec operator should be a variable.  
   E.g. y=++5 or y=++(x+6) are both INVALID.   
