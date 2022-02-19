@@ -109,7 +109,7 @@ For ERROR:
 - parser.h/parser.c:  
   + group tokens into statements based on a set of rules, collectively called a grammar. (mentioned before)
   + construct the syntax binary tree.  
-![image](https://user-images.githubusercontent.com/86723888/154811672-61402ff2-8ee0-4b18-ae2e-2bf8bd2941dd.png)![image](https://user-images.githubusercontent.com/86723888/154811686-be2fddd6-083b-40e8-be3a-4c04c286bbbf.png)![image](https://user-images.githubusercontent.com/86723888/154811693-bdd1f9e8-37a8-493f-b61d-5d7c3072e9fe.png)
+![image](https://user-images.githubusercontent.com/86723888/154811672-61402ff2-8ee0-4b18-ae2e-2bf8bd2941dd.png) 　![image](https://user-images.githubusercontent.com/86723888/154811686-be2fddd6-083b-40e8-be3a-4c04c286bbbf.png) 　![image](https://user-images.githubusercontent.com/86723888/154811693-bdd1f9e8-37a8-493f-b61d-5d7c3072e9fe.png)
 
 
 
